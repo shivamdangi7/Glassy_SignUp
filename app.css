@@ -1,0 +1,77 @@
+html , body  {
+    height: 100%;
+    margin:0%;
+}
+.image{
+    background-image: url(./images/wallpaperflare.com_wallpaper.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    background-color: rgba(255,255,255,0.2);
+    width: 500px ;
+    height: 400px;
+    position:absolute;
+    top:50% ;
+    left:50%;
+    transform: translate(-50%,-50%);
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px 0px rgba(255,255,255,0.7);
+    border:1px solid rgba(255,255,255,0.3) ;
+    backdrop-filter: blur(3px);
+    display: flex;
+    flex-direction:column;
+    padding: 0px 10px 0px 10px ;
+
+
+}
+h2{
+    text-align: center;
+    padding: 0%;
+    padding-top: 5vh;
+    font-family: 'Roboto', sans-serif; ;
+    color: rgb(253, 253, 230);
+}
+form input{
+    padding: 0.5em;  
+    margin: 0.2em 0em 0.3em 0em; /*T R L B*/
+    width: 96.6%;
+    border: 2px solid whitesmoke;
+    background: none;
+    border-radius: 10px;
+    color: rgb(253, 253, 230);
+}
+
+
+button{
+    padding: 10px 0 10px 0 ;
+    width: 100%;
+    margin: 0.4em 0 0 0 ;
+    border-radius:10px  ;
+    border: none ;
+    background-color: #8FBE3D;
+    color:  rgb(255, 255, 255);
+
+}
+
+/* #Name , #email , #pass , #cpass ,#button {
+    display: block;
+    
+} */
+
+.footer p , .container p {
+    text-align: center;
+    padding: 0em  ; /*top right bottom left*/
+    color: white ;
+    text-decoration: antiquewhite;
+    font-size: 15px ;
+}
+a{
+    text-decoration: none;
+    
+}
+a:hover{
+    text-decoration: underline;
+}
