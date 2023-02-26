@@ -102,12 +102,12 @@ a:hover{
 @media(max-width:500px){
     .container{
         width: 300px;
-        height: 475px;
+        height: 480px;
     }
     button{ 
         width: 100%;
       }
-      form input{
+    form input{
           width: 94.6%; 
-      }
+    }
 }
