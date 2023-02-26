@@ -31,7 +31,7 @@ h2{
     text-align: center;
     padding: 0%;
     padding-top: 5vh;
-    font-family: 'Roboto', sans-serif; ;
+    font-family: 'Roboto', sans-serif; 
     color: rgb(253, 253, 230);
 }
 form input{
@@ -82,4 +82,32 @@ a{
 a:hover{
     text-decoration: underline;
     color: #02cee9;
+}
+
+@media (max-width:600px){
+    
+    .container{
+        width: 400px;
+        height: 500px;
+    }
+    button{ 
+      width: 100%;
+    }
+    form input{
+        width: 95.6%; 
+    }
+}
+
+
+@media(max-width:500px){
+    .container{
+        width: 300px;
+        height: 475px;
+    }
+    button{ 
+        width: 100%;
+      }
+      form input{
+          width: 94.6%; 
+      }
 }
