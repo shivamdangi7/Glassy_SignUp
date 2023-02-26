@@ -111,4 +111,7 @@ a:hover{
     form input{
           width: 94.6%; 
     }
+    .footer p , .container p {
+    font-size: 13px;
+    }
 }
